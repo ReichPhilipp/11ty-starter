@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/layout.css" />
-    <title>11ty Starter</title>
+    <title>Autohaus ALFA - {{ title }}</title>
   </head>
   <body>
-    <h2>11ty bootstrap starter</h2>
+    {{> _header}}
+    <section class="container">
+      <div>
+        {{{ content }}}
+      </div>
+    </section>
+    {{> _footer}}
     <script src="js/libs/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
   </body>
