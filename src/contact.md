@@ -1,5 +1,5 @@
 ---
-title: "Start"
+title: "Kontakt"
 layout: "base.hbs"
 ---
 
@@ -7,6 +7,8 @@ layout: "base.hbs"
 
 Ammerstraße 3  
 99734 Mühlhausen
+
+03601 / 873070
 
 ## Öffnungszeiten
 
