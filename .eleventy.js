@@ -3,6 +3,7 @@ module.exports = (config) => {
   config.setLibrary("hbs", handlebars);
 
   config.addPassthroughCopy("src/images");
+  config.addPassthroughCopy("src/assets");
   config.addPassthroughCopy("src/css");
   config.addPassthroughCopy("src/js");
   config.addPassthroughCopy("_includes");

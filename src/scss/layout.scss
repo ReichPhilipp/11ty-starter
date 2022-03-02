@@ -1,6 +1,48 @@
+$textColor: #222222;
+
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   padding: 0;
   margin: 0;
+  color: $textColor;
 }
 
+a {
+  text-decoration: none;
+  color: $textColor;
+}
+dl {
+  dh {
+    font-weight: bold;
+  }
+  dd {
+    padding-left: 1em;
+  }
+}
+
+// Content pages
+//
+// Index
+.header-image {
+  width: 100%;
+  min-height: 80vh;
+  background: url("/images/worker.web.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  position: relative;
+
+  .title {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: #ffffff;
+    h1 {
+      font-size: 3em;
+      text-shadow: 0px 0px 5px #ffffff;
+
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+}

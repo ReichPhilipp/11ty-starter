@@ -6,16 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/fa/css/all.min.css" />
     <link rel="stylesheet" href="/css/layout.css" />
     <title>Autohaus ALFA - {{ title }}</title>
   </head>
   <body>
     {{> _header}}
-    <section class="container">
-      <div>
-        {{{ content }}}
-      </div>
-    </section>
+
+    {{{ content }}}
+    
     {{> _footer}}
     <script src="/js/libs/bootstrap.min.js"></script>
     <script src="/js/app.js"></script>
